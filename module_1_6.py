@@ -7,3 +7,8 @@ a=my_dict.pop("Мария")
 print("Deleted value:",a)
 print("Modified dictionary:",my_dict)
 
+my_set={"Artem",6,6,6,"Artem","Anna",True,True}
+print("Set:",my_set)
+my_set.update({"William",12,12,False,13})
+my_set.discard(False)
+print (my_set)
